@@ -1,10 +1,6 @@
 #include <stdio.h>
 #include <time.h>
 
-int RecursiveBS(int[],int,int,int);
-int IterativeBS(int[],int,int,int);
-
-
 int RecursiveBS(int arr[],int left,int right,int x)
 {
     if(left == right)
